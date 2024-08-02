@@ -82,6 +82,7 @@ body {
     width: 30%;
     align-self: center;
     margin: 0px 35%;
+    box-shadow: 5px 5px 15px rgba(236, 255, 143, 0.3), -5px -5px 15px rgba(255, 0, 0, 0.2);
   }
   #about {
     align-items: center;
