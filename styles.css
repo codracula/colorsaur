@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 10px 20px 7px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111f2a;
+    height: 30px;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: large;
+    
+  }
+  
+  nav ul li {
+    margin: 0;
+    
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  nav .btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #eff5d2;
+  }
+  #hero {
+    background-color: #eee;
+    padding: 50px 20px;
+    text-align: center;
+    height: 100%;
+    background-image: url('images/balls.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #hero h1 {
+    font-size: 2.7em;
+    color: #ffb67a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+  }
+  #hero p {
+    color: #ffffff;
+    font-size: large;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  }
+  #hero em {
+    color: #70ffff;
+  }
+  #about div img {
+    align-items: center;
+    
+    width: 30%;
+    align-self: center;
+    margin: 0px 35%;
+  }
+  #about {
+    align-items: center;
+    background-color: #111f2a;
+    padding: 20px 15%;
+  }
+  #about hr {
+    margin: 2px 0px;
+    color: burlywood;
+
+  }
+  #about div {
+    width: 90%;
+    margin: 10px 20px 10px 50px;
+    background-color: #111f2a;
+    border-radius: 10px;
+  }
+  #about h2 {
+    color: darkseagreen;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+    background-image: url('images/banner_h3.png');
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+  
+    
+  }
+  #about p {
+    margin: 20px 20px;
+    padding: 10px 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.18);
+    font-size: large;
+  }
+  #about h3 {
+    margin: 10px 20px;
+  }
+
+  #about .feature1 {
+    background-image: url('images/show1.jpg');
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  #about .feature1 div {
+    background-color: #ffae96;
+    opacity: 0.8; 
+    margin: 3% 2% 3% 50%;
+    padding: 0px;
+    width: 45%;
+    /* align-content: flex-start; */
+    float: right;
+    align-items: flex-start;
+    max-height: fit-content;
+  }
+  #about .feature1 p {
+    color: rgb(10, 33, 63);
+    font-size: larger;
+    margin: 10%;
+    /* border: 20px 0px; */
+  }
+  #about .feature2 {
+    background-image: url('images/show3.jpg');
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  #about .feature2 div {
+    background-color: #eff5d2;
+    opacity: 0.8; 
+    margin: 5% 60% 0px 5%;
+    padding: 0px;
+    width: 50%;
+    float: left;
+    align-items: flex-start;
+    max-height: fit-content;
+  }
+  #about .feature2 p {
+    color: rgb(10, 33, 63);
+    font-size: larger;
+    border: 20px 0px;
+    margin: 10%;
+  }
+
+  #about .feature3 {
+    background-image: url('images/show6.jpg');
+    /* background-blend-mode:lighten; */
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+  #about .feature3 div {
+    background-color: #d2f1f5;
+    opacity: 0.8; 
+    margin: 5% 5% 5% 65%;
+    padding: 0px;
+    width: 55%;
+    float: right;
+    align-items: flex-start;
+    max-height: fit-content;
+  }
+  #about .feature3 p {
+    color: rgb(10, 33, 63);
+    font-size: large;
+    border: 20px 0px;
+    /* margin: 20px 20px; */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); */
+  }
+
+  #about .feature4 {
+    background-image: url('images/show5.jpg');
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
+  #about .feature4 div {
+    background-color: #c1ff9e;
+    opacity: 0.9; 
+    margin: 5% 50% 2% 2%;
+    padding: 0px;
+    width: 70%;
+    float: left;
+    align-items: flex-start;
+    max-height: fit-content;
+  }
+  #about .feature4 p {
+    color: rgb(10, 33, 63);
+    border: 20px 0px;
+    font-size: larger;
+    /* margin: 0px; */
+  }
+
+  
+  
+
+  footer {
+    background-color: #111f2a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
