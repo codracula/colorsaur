@@ -7,26 +7,28 @@
   <meta name="description" content="Colorsaur is a mobile game studio crafting creative, joyful games. Est. 2023." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- NAV -->
+  <!-- ===================== NAV ===================== -->
   <header class="nav" id="navbar">
     <div class="nav-inner">
       <a href="#" class="logo" aria-label="Colorsaur home">
-        <!-- Logo mark: colorful circle with dino silhouette -->
         <div class="logo-mark" aria-hidden="true">
           <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="22" cy="22" r="22" fill="url(#lg1)"/>
-            <circle cx="17" cy="19" r="4" fill="white" opacity="0.95"/>
-            <circle cx="27" cy="19" r="4" fill="white" opacity="0.95"/>
-            <circle cx="18" cy="19" r="2" fill="#2d1b69"/>
-            <circle cx="28" cy="19" r="2" fill="#2d1b69"/>
-            <ellipse cx="22" cy="26" rx="9" ry="7" fill="white" opacity="0.9"/>
-            <path d="M17 29 C19 32 25 32 27 29" stroke="#a855f7" stroke-width="1.8" stroke-linecap="round" fill="none"/>
-            <path d="M30 13 C33 9 37 11 35 15" stroke="white" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.8"/>
+            <rect width="44" height="44" fill="#a855f7"/>
+            <rect width="44" height="44" fill="url(#lg1)"/>
+            <rect x="10" y="16" width="8" height="8" fill="white"/>
+            <rect x="26" y="16" width="8" height="8" fill="white"/>
+            <rect x="12" y="18" width="4" height="4" fill="#2d1b69"/>
+            <rect x="28" y="18" width="4" height="4" fill="#2d1b69"/>
+            <rect x="14" y="16" width="2" height="2" fill="white"/>
+            <rect x="30" y="16" width="2" height="2" fill="white"/>
+            <rect x="10" y="26" width="24" height="8" fill="white" opacity="0.9"/>
+            <rect x="14" y="30" width="16" height="2" fill="#a855f7"/>
+            <rect x="32" y="10" width="6" height="4" fill="white" opacity="0.6"/>
             <defs>
               <linearGradient id="lg1" x1="0" y1="0" x2="44" y2="44" gradientUnits="userSpaceOnUse">
                 <stop offset="0%" stop-color="#f472b6"/>
@@ -36,7 +38,7 @@
             </defs>
           </svg>
         </div>
-        <span class="logo-text">Colorsaur</span>
+        <span class="logo-text">COLORSAUR</span>
       </a>
 
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
@@ -48,7 +50,7 @@
           <li><a href="#about"   class="nav-link">About</a></li>
           <li><a href="#mission" class="nav-link">Mission</a></li>
           <li><a href="#vision"  class="nav-link">Vision</a></li>
-          <li><a href="#contact" class="nav-cta">Say hi! 👋</a></li>
+          <li><a href="#contact" class="nav-cta">SAY HI! ★</a></li>
         </ul>
       </nav>
     </div>
@@ -56,281 +58,277 @@
 
   <main>
 
-    <!-- ===== HERO ===== -->
+    <!-- ===================== HERO ===================== -->
     <section class="hero" id="home" aria-label="Welcome to Colorsaur">
+
+      <!-- Pixel clouds -->
+      <div class="px-cloud px-cloud-1" aria-hidden="true"></div>
+      <div class="px-cloud px-cloud-2" aria-hidden="true"></div>
+      <div class="px-cloud px-cloud-3" aria-hidden="true"></div>
+
+      <!-- Pixel sparkles -->
+      <div class="px-sparkle s1" aria-hidden="true">✦</div>
+      <div class="px-sparkle s2" aria-hidden="true">★</div>
+      <div class="px-sparkle s3" aria-hidden="true">✦</div>
+      <div class="px-sparkle s4" aria-hidden="true">♥</div>
+      <div class="px-sparkle s5" aria-hidden="true">★</div>
+
       <div class="hero-inner">
 
-        <!-- Left: copy -->
+        <!-- Copy -->
         <div class="hero-copy">
-          <div class="hero-pill">
-            <span class="pill-dot" aria-hidden="true"></span>
-            Game Dev Studio · Est. 2023
+          <div class="hero-tag">
+            <span class="tag-dot" aria-hidden="true"></span>
+            EST. 2023 · GAME DEV STUDIO
           </div>
 
           <h1 class="hero-title">
-            Games that<br>
-            <mark class="mark-yellow">color</mark> your<br>
-            world 🎨
+            GAMES THAT<br>
+            <span class="title-color">COLOR<br>YOUR</span><br>
+            WORLD!
           </h1>
 
           <p class="hero-body">
-            Hey! We're Colorsaur — a small, passionate team crafting mobile games that spark creativity, connect people, and put a huge smile on your face.
+            Hey! We're Colorsaur 🦕 — a small, passionate team crafting mobile games that spark creativity, connect people, and put a huge smile on your face!
           </p>
 
-          <div class="hero-actions">
-            <a href="#about"   class="btn btn-primary">Meet us →</a>
-            <a href="#mission" class="btn btn-ghost">Our mission</a>
+          <div class="hero-btns">
+            <a href="#about"   class="px-btn px-btn-yellow">▶ MEET US!</a>
+            <a href="#mission" class="px-btn px-btn-white">★ OUR MISSION</a>
           </div>
 
-          <!-- Quick stats row -->
+          <!-- Stats row -->
           <div class="hero-stats" aria-label="Quick facts">
-            <div class="hstat">
+            <div class="stat-chip">
+              <span class="stat-icon" aria-hidden="true">🚀</span>
               <strong>2023</strong>
               <span>Founded</span>
             </div>
-            <div class="hstat-div" aria-hidden="true"></div>
-            <div class="hstat">
+            <div class="stat-chip">
+              <span class="stat-icon" aria-hidden="true">📱</span>
               <strong>Mobile</strong>
               <span>Platform</span>
             </div>
-            <div class="hstat-div" aria-hidden="true"></div>
-            <div class="hstat">
+            <div class="stat-chip">
+              <span class="stat-icon" aria-hidden="true">💜</span>
               <strong>100%</strong>
               <span>Passion</span>
             </div>
           </div>
         </div>
 
-        <!-- Right: art placeholder -->
-        <div class="hero-art" aria-label="Hero artwork area">
+        <!-- Art slot -->
+        <div class="hero-art">
           <!--
-            ┌─────────────────────────────────────────────────────┐
-            │  ART SLOT 1 — HERO MASCOT                           │
-            │  File: assets/hero/mascot.png                       │
-            │  Spec: assets/README.md → "1. hero/"               │
-            │                                                      │
-            │  When ready, DELETE the div.art-placeholder block   │
-            │  below and REPLACE with this <img>:                 │
-            │                                                      │
-            │  <img                                                │
-            │    src="assets/hero/mascot.png"                     │
-            │    alt="Colorsaur mascot dinosaur"                  │
-            │    class="art-img art-img--hero"                    │
-            │    width="800" height="960"                         │
-            │    loading="eager"                                   │
-            │  />                                                  │
-            └─────────────────────────────────────────────────────┘
+            ┌─────────────────────────────────────────┐
+            │  ART SLOT 1 — HERO MASCOT               │
+            │  File:  assets/hero/mascot.png          │
+            │  Size:  800 × 960 px (export at 2×)     │
+            │  Spec:  assets/README.md → Slot 1       │
+            │                                          │
+            │  Replace this block with:               │
+            │  <img src="assets/hero/mascot.png"      │
+            │       alt="Colorsaur mascot"            │
+            │       class="art-img art-img--hero"     │
+            │       width="800" height="960"          │
+            │       loading="eager" />                │
+            └─────────────────────────────────────────┘
           -->
-          <div class="art-placeholder art-placeholder--hero">
-            <div class="art-ph-inner">
-              <div class="art-ph-icon" aria-hidden="true">🦕</div>
-              <p class="art-ph-label">Mascot Art</p>
-              <p class="art-ph-hint">See assets/README.md → Slot 1</p>
+          <div class="px-frame px-frame-hero">
+            <div class="px-frame-title">[ MASCOT ART ]</div>
+            <div class="px-frame-body">
+              <div class="ph-emoji" aria-hidden="true">🦕</div>
+              <p class="ph-label">Slot 1 · mascot.png</p>
+              <p class="ph-hint">800 × 960 px · PNG</p>
             </div>
-            <div class="color-chip cc-yellow" aria-hidden="true"></div>
-            <div class="color-chip cc-pink"   aria-hidden="true"></div>
-            <div class="color-chip cc-mint"   aria-hidden="true"></div>
           </div>
         </div>
       </div>
 
-      <!-- Wave -->
-      <div class="wave" aria-hidden="true">
-        <svg viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0,36 C200,72 400,0 720,36 C1040,72 1240,8 1440,36 L1440,72 L0,72Z" fill="#fff"/>
-        </svg>
+      <!-- Pixel ground -->
+      <div class="px-ground" aria-hidden="true">
+        <div class="px-grass"></div>
+        <div class="px-dirt"></div>
       </div>
     </section>
 
-    <!-- ===== ABOUT ===== -->
-    <section class="section section-white" id="about" aria-label="About Colorsaur">
+    <!-- ===================== FEATURES ===================== -->
+    <section class="section section-cream" id="about" aria-label="About Colorsaur">
       <div class="container">
 
         <div class="section-header">
-          <p class="eyebrow eyebrow-purple">Who we are</p>
-          <h2 class="section-title">We're Colorsaur! 🦕</h2>
+          <p class="eyebrow">// WHO WE ARE</p>
+          <h2 class="section-title">WE'RE COLORSAUR!</h2>
           <p class="section-lead">A fresh mobile game studio on a mission to make games that are actually worth your time — creative, joyful, and totally unforgettable.</p>
         </div>
 
+        <!-- About layout: art left + cards right -->
         <div class="about-layout">
-          <!--
-            ┌─────────────────────────────────────────────────────┐
-            │  ART SLOT 2 — ABOUT / STUDIO ART                    │
-            │  File: assets/about/studio.png  (or .jpg/.webp)     │
-            │  Spec: assets/README.md → "2. about/"              │
-            │                                                      │
-            │  <img                                                │
-            │    src="assets/about/studio.png"                    │
-            │    alt="Colorsaur studio team"                      │
-            │    class="art-img art-img--about"                   │
-            │    width="880" height="880"                         │
-            │    loading="lazy"                                    │
-            │  />                                                  │
-            └─────────────────────────────────────────────────────┘
-          -->
-          <div class="art-placeholder art-placeholder--about" aria-label="About section artwork">
-            <div class="art-ph-inner">
-              <div class="art-ph-icon" aria-hidden="true">🎮</div>
-              <p class="art-ph-label">Studio Art</p>
-              <p class="art-ph-hint">See assets/README.md → Slot 2</p>
+          <div class="about-art">
+            <!--
+              ┌─────────────────────────────────────────┐
+              │  ART SLOT 2 — STUDIO / TEAM ART         │
+              │  File:  assets/about/studio.png         │
+              │  Size:  880 × 880 px (export at 2×)     │
+              │  Spec:  assets/README.md → Slot 2       │
+              │                                          │
+              │  Replace this block with:               │
+              │  <img src="assets/about/studio.png"     │
+              │       alt="Colorsaur studio team"       │
+              │       class="art-img art-img--about"    │
+              │       width="880" height="880"          │
+              │       loading="lazy" />                 │
+              └─────────────────────────────────────────┘
+            -->
+            <div class="px-frame px-frame-about">
+              <div class="px-frame-title">[ STUDIO ART ]</div>
+              <div class="px-frame-body">
+                <div class="ph-emoji" aria-hidden="true">🎮</div>
+                <p class="ph-label">Slot 2 · studio.png</p>
+                <p class="ph-hint">880 × 880 px · PNG / JPG</p>
+              </div>
             </div>
           </div>
 
-          <!-- Feature cards right -->
-          <div class="about-cards">
-            <div class="feature-card fc-purple">
+          <div class="feature-cards">
+            <article class="px-card fc-purple">
               <span class="fc-emoji" aria-hidden="true">📱</span>
-              <div>
-                <h3>Built for Mobile</h3>
-                <p>Touch-native, snappy, and built to fit in your pocket and your lifestyle.</p>
-              </div>
-            </div>
-            <div class="feature-card fc-coral">
+              <h3>MOBILE FIRST</h3>
+              <p>Touch-native, snappy, and built to fit in your pocket and your lifestyle.</p>
+            </article>
+            <article class="px-card fc-coral">
               <span class="fc-emoji" aria-hidden="true">🌱</span>
-              <div>
-                <h3>Brand New Studio</h3>
-                <p>Young, scrappy, and full of ideas. We're just getting started — the best is ahead!</p>
-              </div>
-            </div>
-            <div class="feature-card fc-mint">
+              <h3>FRESH STUDIO</h3>
+              <p>Young, scrappy, and full of ideas. We're just getting started — best is ahead!</p>
+            </article>
+            <article class="px-card fc-mint">
               <span class="fc-emoji" aria-hidden="true">🤝</span>
-              <div>
-                <h3>Team of Makers</h3>
-                <p>Designers, devs, and artists all in one place, united by one big creative vision.</p>
-              </div>
-            </div>
-            <div class="feature-card fc-yellow">
+              <h3>TEAM EFFORT</h3>
+              <p>Designers, devs, artists all in one place — united by one big creative vision.</p>
+            </article>
+            <article class="px-card fc-yellow">
               <span class="fc-emoji" aria-hidden="true">⭐</span>
-              <div>
-                <h3>Quality First</h3>
-                <p>We sweat every pixel and every frame. If we ship it, we're proud of every bit of it.</p>
-              </div>
-            </div>
+              <h3>QUALITY FIRST</h3>
+              <p>We sweat every pixel and every frame. If we ship it, we're proud of every bit.</p>
+            </article>
           </div>
         </div>
       </div>
 
-      <div class="wave" aria-hidden="true">
-        <svg viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0,20 C320,70 640,0 960,40 C1120,60 1300,10 1440,30 L1440,72 L0,72Z" fill="#fdf4ff"/>
-        </svg>
-      </div>
+      <!-- Pixel step divider -->
+      <div class="step-divider" aria-hidden="true"></div>
     </section>
 
-    <!-- ===== MISSION ===== -->
+    <!-- ===================== MISSION ===================== -->
     <section class="section section-purple" id="mission" aria-label="Our mission">
+
+      <!-- Floating pixel stars decoration -->
+      <div class="px-sparkle ps1" aria-hidden="true">★</div>
+      <div class="px-sparkle ps2" aria-hidden="true">✦</div>
+      <div class="px-sparkle ps3" aria-hidden="true">★</div>
+
       <div class="container">
         <div class="mission-layout">
 
           <div class="mission-copy">
-            <p class="eyebrow eyebrow-white-muted">Why we exist</p>
-            <h2 class="section-title white">Our Mission 💡</h2>
+            <p class="eyebrow eyebrow-white">// OUR PURPOSE</p>
+            <h2 class="section-title white">OUR MISSION!</h2>
 
-            <blockquote class="mission-quote">
-              "Craft unforgettable mobile gaming experiences that inspire creativity and bring people together."
+            <blockquote class="px-quote">
+              <span class="quote-mark" aria-hidden="true">"</span>
+              Craft unforgettable mobile gaming experiences that inspire creativity and bring people together.
+              <span class="quote-mark" aria-hidden="true">"</span>
             </blockquote>
 
             <p class="mission-body">
-              At Colorsaur, games are more than entertainment — they're a canvas for expression, connection, and joy. We blend great tech with compelling storytelling and bold art to make something genuinely worth playing.
-            </p>
-            <p class="mission-body">
-              Every game we make is designed to feel good from the very first tap — whether you're a lifelong gamer or brand new to the scene.
+              At Colorsaur, games are more than entertainment — they're a canvas for expression and joy. We blend great tech with compelling stories and bold art to make something genuinely worth playing.
             </p>
 
             <ul class="pillar-list" aria-label="Mission pillars">
-              <li class="pillar">
-                <span class="pillar-badge pb-yellow" aria-hidden="true">🔮</span>
-                Tech-forward design
-              </li>
-              <li class="pillar">
-                <span class="pillar-badge pb-pink" aria-hidden="true">📖</span>
-                Compelling storytelling
-              </li>
-              <li class="pillar">
-                <span class="pillar-badge pb-mint" aria-hidden="true">🎨</span>
-                Artistic excellence
-              </li>
+              <li class="pillar"><span class="pillar-icon" aria-hidden="true">🔮</span> Tech-forward design</li>
+              <li class="pillar"><span class="pillar-icon" aria-hidden="true">📖</span> Compelling storytelling</li>
+              <li class="pillar"><span class="pillar-icon" aria-hidden="true">🎨</span> Artistic excellence</li>
             </ul>
 
-            <a href="#vision" class="btn btn-white">See our vision →</a>
+            <a href="#vision" class="px-btn px-btn-yellow">SEE OUR VISION →</a>
           </div>
 
-          <!--
-            ┌─────────────────────────────────────────────────────┐
-            │  ART SLOT 3 — MISSION ART                           │
-            │  File: assets/mission/mission.png                   │
-            │  Spec: assets/README.md → "3. mission/"            │
-            │  ⚠️  Section bg is deep purple — use light colors!  │
-            │                                                      │
-            │  <img                                                │
-            │    src="assets/mission/mission.png"                 │
-            │    alt="Colorsaur mission illustration"             │
-            │    class="art-img art-img--mission"                 │
-            │    width="720" height="760"                         │
-            │    loading="lazy"                                    │
-            │  />                                                  │
-            └─────────────────────────────────────────────────────┘
-          -->
-          <div class="art-placeholder art-placeholder--mission" aria-label="Mission section artwork">
-            <div class="art-ph-inner">
-              <div class="art-ph-icon" aria-hidden="true">✨</div>
-              <p class="art-ph-label">Mission Art</p>
-              <p class="art-ph-hint">See assets/README.md → Slot 3</p>
+          <div class="mission-art">
+            <!--
+              ┌─────────────────────────────────────────┐
+              │  ART SLOT 3 — MISSION ART               │
+              │  File:  assets/mission/mission.png      │
+              │  Size:  720 × 760 px (export at 2×)     │
+              │  Spec:  assets/README.md → Slot 3       │
+              │  ⚠️  Section is deep purple — use light  │
+              │  or white-dominant art colors!           │
+              │                                          │
+              │  Replace this block with:               │
+              │  <img src="assets/mission/mission.png"  │
+              │       alt="Mission illustration"        │
+              │       class="art-img art-img--mission"  │
+              │       width="720" height="760"          │
+              │       loading="lazy" />                 │
+              └─────────────────────────────────────────┘
+            -->
+            <div class="px-frame px-frame-mission">
+              <div class="px-frame-title">[ MISSION ART ]</div>
+              <div class="px-frame-body">
+                <div class="ph-emoji" aria-hidden="true">✨</div>
+                <p class="ph-label">Slot 3 · mission.png</p>
+                <p class="ph-hint">720 × 760 px · PNG</p>
+                <p class="ph-warn">⚠️ Use light colors — purple bg!</p>
+              </div>
             </div>
-            <div class="color-chip cc-white-sm" aria-hidden="true"></div>
-            <div class="color-chip cc-pink-sm"  aria-hidden="true"></div>
           </div>
 
         </div>
       </div>
 
-      <div class="wave" aria-hidden="true">
-        <svg viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0,48 C200,10 500,70 800,30 C1100,0 1300,60 1440,20 L1440,72 L0,72Z" fill="#ecfdf5"/>
-        </svg>
-      </div>
+      <div class="step-divider step-divider-mint" aria-hidden="true"></div>
     </section>
 
-    <!-- ===== VISION ===== -->
+    <!-- ===================== VISION ===================== -->
     <section class="section section-mint" id="vision" aria-label="Our vision">
       <div class="container">
         <div class="section-header">
-          <p class="eyebrow eyebrow-teal">Where we're headed</p>
-          <h2 class="section-title">Our Vision 🔭</h2>
+          <p class="eyebrow eyebrow-teal">// WHERE WE'RE HEADED</p>
+          <h2 class="section-title">OUR VISION!</h2>
           <p class="section-lead">We're building something bigger than games. Here's what we're shooting for!</p>
         </div>
 
         <div class="vision-grid">
 
           <article class="vision-card vc-purple">
-            <div class="vc-art" aria-label="Innovation artwork">
+            <div class="vc-art">
               <!--
-                ┌─────────────────────────────────────────────────┐
-                │  ART SLOT 4 — VISION: INNOVATION                │
-                │  File: assets/vision-innovation/innovation.png  │
-                │  Spec: assets/README.md → "4. vision-innov.."  │
-                │                                                  │
-                │  <img                                            │
-                │    src="assets/vision-innovation/innovation.png"│
-                │    alt="Innovation and creativity illustration" │
-                │    class="art-img art-img--vision"              │
-                │    width="880" height="440"                     │
-                │    loading="lazy"                               │
-                │  />                                              │
-                └─────────────────────────────────────────────────┘
+                ┌─────────────────────────────────────────┐
+                │  ART SLOT 4 — VISION: INNOVATION        │
+                │  File:  assets/vision-innovation/       │
+                │         innovation.png                  │
+                │  Size:  880 × 440 px (export at 2×)     │
+                │  Spec:  assets/README.md → Slot 4       │
+                │                                          │
+                │  <img src="assets/vision-innovation/    │
+                │            innovation.png"              │
+                │       class="art-img art-img--vision"   │
+                │       width="880" height="440"          │
+                │       loading="lazy" />                 │
+                └─────────────────────────────────────────┘
               -->
-              <div class="art-placeholder art-placeholder--vision">
-                <div class="art-ph-inner">
-                  <div class="art-ph-icon" aria-hidden="true">💡</div>
-                  <p class="art-ph-label">Innovation Art</p>
-                  <p class="art-ph-hint">See assets/README.md → Slot 4</p>
+              <div class="px-frame px-frame-vision">
+                <div class="px-frame-title">[ INNOVATION ART ]</div>
+                <div class="px-frame-body">
+                  <div class="ph-emoji" aria-hidden="true">💡</div>
+                  <p class="ph-label">Slot 4 · innovation.png</p>
+                  <p class="ph-hint">880 × 440 px · PNG</p>
                 </div>
               </div>
             </div>
             <div class="vc-body">
               <span class="vc-num" aria-hidden="true">01</span>
-              <h3>Innovation &amp; Creativity</h3>
-              <p>Mobile games can be just as powerful as any storytelling medium. We're here to prove it — with fresh formats and creativity that never compromises.</p>
+              <h3>INNOVATION &amp; CREATIVITY</h3>
+              <p>Mobile games can be just as powerful as any storytelling medium. We're here to prove it — fresh formats, wild ideas, creativity that never quits.</p>
               <ul class="vc-list">
                 <li>Pioneering new mobile formats</li>
                 <li>Art meets interaction</li>
@@ -340,34 +338,35 @@
           </article>
 
           <article class="vision-card vc-teal">
-            <div class="vc-art" aria-label="Community artwork">
+            <div class="vc-art">
               <!--
-                ┌─────────────────────────────────────────────────┐
-                │  ART SLOT 5 — VISION: COMMUNITY                 │
-                │  File: assets/vision-community/community.png    │
-                │  Spec: assets/README.md → "5. vision-comm.."   │
-                │                                                  │
-                │  <img                                            │
-                │    src="assets/vision-community/community.png" │
-                │    alt="Community and connection illustration"  │
-                │    class="art-img art-img--vision"              │
-                │    width="880" height="440"                     │
-                │    loading="lazy"                               │
-                │  />                                              │
-                └─────────────────────────────────────────────────┘
+                ┌─────────────────────────────────────────┐
+                │  ART SLOT 5 — VISION: COMMUNITY         │
+                │  File:  assets/vision-community/        │
+                │         community.png                   │
+                │  Size:  880 × 440 px (export at 2×)     │
+                │  Spec:  assets/README.md → Slot 5       │
+                │                                          │
+                │  <img src="assets/vision-community/     │
+                │            community.png"               │
+                │       class="art-img art-img--vision"   │
+                │       width="880" height="440"          │
+                │       loading="lazy" />                 │
+                └─────────────────────────────────────────┘
               -->
-              <div class="art-placeholder art-placeholder--vision">
-                <div class="art-ph-inner">
-                  <div class="art-ph-icon" aria-hidden="true">🌍</div>
-                  <p class="art-ph-label">Community Art</p>
-                  <p class="art-ph-hint">See assets/README.md → Slot 5</p>
+              <div class="px-frame px-frame-vision px-frame-vision-teal">
+                <div class="px-frame-title">[ COMMUNITY ART ]</div>
+                <div class="px-frame-body">
+                  <div class="ph-emoji" aria-hidden="true">🌍</div>
+                  <p class="ph-label">Slot 5 · community.png</p>
+                  <p class="ph-hint">880 × 440 px · PNG</p>
                 </div>
               </div>
             </div>
             <div class="vc-body">
               <span class="vc-num" aria-hidden="true">02</span>
-              <h3>Community First</h3>
-              <p>The best games are the ones you talk about. We're building welcoming spaces where players connect, share feedback, and grow together.</p>
+              <h3>COMMUNITY FIRST!</h3>
+              <p>The best games are the ones you talk about. We're building warm, welcoming spaces where players connect, share, and grow together.</p>
               <ul class="vc-list">
                 <li>Player feedback shapes everything</li>
                 <li>Live events &amp; fun tournaments</li>
@@ -379,93 +378,96 @@
         </div>
       </div>
 
-      <div class="wave" aria-hidden="true">
-        <svg viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0,30 C300,72 700,0 1100,50 C1260,72 1380,20 1440,40 L1440,72 L0,72Z" fill="#fff7ed"/>
-        </svg>
-      </div>
+      <div class="step-divider step-divider-warm" aria-hidden="true"></div>
     </section>
 
-    <!-- ===== STAY TUNED ===== -->
+    <!-- ===================== STAY TUNED ===================== -->
     <section class="section section-warm" id="team" aria-label="Stay tuned">
+
+      <div class="px-sparkle ts1" aria-hidden="true">★</div>
+      <div class="px-sparkle ts2" aria-hidden="true">✦</div>
+
       <div class="container">
         <div class="tuned-banner">
-          <div class="tuned-art" aria-label="Coming soon artwork">
+          <div class="tuned-art">
             <!--
-              ┌─────────────────────────────────────────────────────┐
-              │  ART SLOT 6 — COMING SOON / STAY TUNED              │
-              │  File: assets/coming-soon/teaser.png                │
-              │  Spec: assets/README.md → "6. coming-soon/"        │
-              │                                                      │
-              │  <img                                                │
-              │    src="assets/coming-soon/teaser.png"              │
-              │    alt="Colorsaur upcoming game teaser"             │
-              │    class="art-img art-img--tuned"                   │
-              │    width="800" height="600"                         │
-              │    loading="lazy"                                    │
-              │  />                                                  │
-              └─────────────────────────────────────────────────────┘
+              ┌─────────────────────────────────────────┐
+              │  ART SLOT 6 — COMING SOON / TEASER      │
+              │  File:  assets/coming-soon/teaser.png   │
+              │  Size:  800 × 600 px (export at 2×)     │
+              │  Spec:  assets/README.md → Slot 6       │
+              │                                          │
+              │  <img src="assets/coming-soon/          │
+              │            teaser.png"                  │
+              │       alt="Coming soon game teaser"     │
+              │       class="art-img art-img--tuned"    │
+              │       width="800" height="600"          │
+              │       loading="lazy" />                 │
+              └─────────────────────────────────────────┘
             -->
-            <div class="art-placeholder art-placeholder--tuned">
-              <div class="art-ph-inner">
-                <div class="art-ph-icon" aria-hidden="true">🦕</div>
-                <p class="art-ph-label">Coming Soon Art</p>
-                <p class="art-ph-hint">See assets/README.md → Slot 6</p>
+            <div class="px-frame px-frame-tuned">
+              <div class="px-frame-title">[ COMING SOON ART ]</div>
+              <div class="px-frame-body">
+                <div class="ph-emoji" aria-hidden="true">🦕</div>
+                <p class="ph-label">Slot 6 · teaser.png</p>
+                <p class="ph-hint">800 × 600 px · PNG</p>
               </div>
             </div>
           </div>
+
           <div class="tuned-copy">
-            <span class="tuned-badge" aria-label="In development">🚧 In the works</span>
-            <h2>We're coloring the world —<br>stay tuned! 🎨</h2>
-            <p>Our team is heads-down building something really exciting. Be the first to know when we launch.</p>
-            <a href="#contact" class="btn btn-primary">Join the crew! →</a>
+            <div class="tuned-badge" aria-label="In development">🚧 IN THE WORKS!</div>
+            <h2 class="section-title">WE'RE COLORING<br>THE WORLD...</h2>
+            <p>Our team is heads-down building something really exciting. Be the first to know when we launch!</p>
+            <a href="#contact" class="px-btn px-btn-yellow">JOIN THE CREW! →</a>
           </div>
         </div>
       </div>
 
-      <div class="wave" aria-hidden="true">
-        <svg viewBox="0 0 1440 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0,50 C200,10 500,72 800,28 C1100,0 1300,60 1440,22 L1440,72 L0,72Z" fill="#fdf4ff"/>
-        </svg>
-      </div>
+      <div class="step-divider step-divider-lavender" aria-hidden="true"></div>
     </section>
 
-    <!-- ===== CONTACT ===== -->
-    <section class="section section-contact" id="contact" aria-label="Contact us">
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section section-lavender" id="contact" aria-label="Contact us">
+
+      <div class="px-sparkle cs1" aria-hidden="true">✦</div>
+      <div class="px-sparkle cs2" aria-hidden="true">★</div>
+
       <div class="container">
         <div class="contact-card">
-          <div class="contact-art" aria-label="Contact artwork">
+          <div class="contact-art">
             <!--
-              ┌─────────────────────────────────────────────────────┐
-              │  ART SLOT 7 — CONTACT ART                           │
-              │  File: assets/contact/contact.png                   │
-              │  Spec: assets/README.md → "7. contact/"            │
-              │                                                      │
-              │  <img                                                │
-              │    src="assets/contact/contact.png"                 │
-              │    alt="Friendly Colorsaur mascot waving"           │
-              │    class="art-img art-img--contact"                 │
-              │    width="560" height="560"                         │
-              │    loading="lazy"                                    │
-              │  />                                                  │
-              └─────────────────────────────────────────────────────┘
+              ┌─────────────────────────────────────────┐
+              │  ART SLOT 7 — CONTACT ART               │
+              │  File:  assets/contact/contact.png      │
+              │  Size:  560 × 560 px (export at 2×)     │
+              │  Spec:  assets/README.md → Slot 7       │
+              │                                          │
+              │  <img src="assets/contact/contact.png"  │
+              │       alt="Mascot waving"               │
+              │       class="art-img art-img--contact"  │
+              │       width="560" height="560"          │
+              │       loading="lazy" />                 │
+              └─────────────────────────────────────────┘
             -->
-            <div class="art-placeholder art-placeholder--contact">
-              <div class="art-ph-inner">
-                <div class="art-ph-icon" aria-hidden="true">📬</div>
-                <p class="art-ph-label">Contact Art</p>
-                <p class="art-ph-hint">See assets/README.md → Slot 7</p>
+            <div class="px-frame px-frame-contact">
+              <div class="px-frame-title">[ CONTACT ART ]</div>
+              <div class="px-frame-body">
+                <div class="ph-emoji" aria-hidden="true">📬</div>
+                <p class="ph-label">Slot 7 · contact.png</p>
+                <p class="ph-hint">560 × 560 px · PNG</p>
               </div>
             </div>
           </div>
+
           <div class="contact-copy">
-            <p class="eyebrow eyebrow-purple">Don't be shy!</p>
-            <h2 class="section-title">Let's talk! 💬</h2>
-            <p class="section-lead" style="text-align:left">Got questions, partnership ideas, or just want to say hi to a friendly dino? We'd love to hear from you.</p>
-            <a href="mailto:hello@colorsaur.com" class="btn btn-primary btn-lg">
-              📧 hello@colorsaur.com
+            <p class="eyebrow">// DON'T BE SHY!</p>
+            <h2 class="section-title">LET'S TALK! 💬</h2>
+            <p class="section-lead" style="text-align:left">Got questions, ideas, or just want to say hi to a friendly dino? We'd love to hear from you!</p>
+            <a href="mailto:hello@colorsaur.com" class="px-btn px-btn-yellow px-btn-lg">
+              📧 HELLO@COLORSAUR.COM
             </a>
-            <p class="contact-note">We reply to every message. Pinky promise. 🤙</p>
+            <p class="contact-note">★ We reply to every single message! ★</p>
           </div>
         </div>
       </div>
@@ -473,21 +475,21 @@
 
   </main>
 
-  <!-- FOOTER -->
+  <!-- ===================== FOOTER ===================== -->
   <footer class="footer">
     <div class="container">
       <div class="footer-inner">
         <div class="footer-brand">
-          <a href="#" class="logo" aria-label="Colorsaur home">
+          <a href="#" class="logo footer-logo" aria-label="Colorsaur home">
             <div class="logo-mark" aria-hidden="true">
               <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="22" cy="22" r="22" fill="url(#lg2)"/>
-                <circle cx="17" cy="19" r="4" fill="white" opacity="0.95"/>
-                <circle cx="27" cy="19" r="4" fill="white" opacity="0.95"/>
-                <circle cx="18" cy="19" r="2" fill="#2d1b69"/>
-                <circle cx="28" cy="19" r="2" fill="#2d1b69"/>
-                <ellipse cx="22" cy="26" rx="9" ry="7" fill="white" opacity="0.9"/>
-                <path d="M17 29 C19 32 25 32 27 29" stroke="#a855f7" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+                <rect width="44" height="44" fill="url(#lg2)"/>
+                <rect x="10" y="16" width="8" height="8" fill="white"/>
+                <rect x="26" y="16" width="8" height="8" fill="white"/>
+                <rect x="12" y="18" width="4" height="4" fill="#2d1b69"/>
+                <rect x="28" y="18" width="4" height="4" fill="#2d1b69"/>
+                <rect x="10" y="26" width="24" height="8" fill="white" opacity="0.9"/>
+                <rect x="14" y="30" width="16" height="2" fill="#a855f7"/>
                 <defs>
                   <linearGradient id="lg2" x1="0" y1="0" x2="44" y2="44" gradientUnits="userSpaceOnUse">
                     <stop offset="0%" stop-color="#f472b6"/>
@@ -497,14 +499,14 @@
                 </defs>
               </svg>
             </div>
-            <span class="logo-text">Colorsaur</span>
+            <span class="logo-text footer-logo-text">COLORSAUR</span>
           </a>
           <p class="footer-tagline">Mobile games that color your world 🌈</p>
         </div>
 
         <nav class="footer-links" aria-label="Footer navigation">
           <div class="footer-col">
-            <h4>Company</h4>
+            <h4>COMPANY</h4>
             <ul>
               <li><a href="#about">About Us</a></li>
               <li><a href="#mission">Mission</a></li>
@@ -512,7 +514,7 @@
             </ul>
           </div>
           <div class="footer-col">
-            <h4>Connect</h4>
+            <h4>CONNECT</h4>
             <ul>
               <li><a href="#contact">Say Hello 👋</a></li>
               <li><a href="#">Press Kit</a></li>
@@ -523,8 +525,8 @@
       </div>
 
       <div class="footer-bottom">
-        <p>© 2024 Colorsaur. All rights reserved.</p>
-        <p>Made with 💜 &amp; lots of color</p>
+        <p>© 2024 COLORSAUR. ALL RIGHTS RESERVED.</p>
+        <p>MADE WITH 💜 &amp; LOTS OF COLOR</p>
       </div>
     </div>
   </footer>
