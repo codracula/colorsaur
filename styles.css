@@ -169,10 +169,10 @@ img { display: block; max-width: 100%; }
   object-position: center;
 }
 
-/* Hero mascot — contain so transparent PNG isn't cropped */
 .art-img--hero {
-  object-fit: contain;
+  object-fit: cover;
   height: 480px;
+  border-radius: var(--r-xl);
   animation: float-gentle 5s ease-in-out infinite;
 }
 
