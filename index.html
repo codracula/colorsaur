@@ -103,13 +103,30 @@
 
         <!-- Right: art placeholder -->
         <div class="hero-art" aria-label="Hero artwork area">
+          <!--
+            ┌─────────────────────────────────────────────────────┐
+            │  ART SLOT 1 — HERO MASCOT                           │
+            │  File: assets/hero/mascot.png                       │
+            │  Spec: assets/README.md → "1. hero/"               │
+            │                                                      │
+            │  When ready, DELETE the div.art-placeholder block   │
+            │  below and REPLACE with this <img>:                 │
+            │                                                      │
+            │  <img                                                │
+            │    src="assets/hero/mascot.png"                     │
+            │    alt="Colorsaur mascot dinosaur"                  │
+            │    class="art-img art-img--hero"                    │
+            │    width="800" height="960"                         │
+            │    loading="eager"                                   │
+            │  />                                                  │
+            └─────────────────────────────────────────────────────┘
+          -->
           <div class="art-placeholder art-placeholder--hero">
             <div class="art-ph-inner">
               <div class="art-ph-icon" aria-hidden="true">🦕</div>
               <p class="art-ph-label">Mascot Art</p>
-              <p class="art-ph-hint">Replace with your custom illustration</p>
+              <p class="art-ph-hint">See assets/README.md → Slot 1</p>
             </div>
-            <!-- Decorative color chips -->
             <div class="color-chip cc-yellow" aria-hidden="true"></div>
             <div class="color-chip cc-pink"   aria-hidden="true"></div>
             <div class="color-chip cc-mint"   aria-hidden="true"></div>
@@ -136,12 +153,26 @@
         </div>
 
         <div class="about-layout">
-          <!-- Art placeholder left -->
+          <!--
+            ┌─────────────────────────────────────────────────────┐
+            │  ART SLOT 2 — ABOUT / STUDIO ART                    │
+            │  File: assets/about/studio.png  (or .jpg/.webp)     │
+            │  Spec: assets/README.md → "2. about/"              │
+            │                                                      │
+            │  <img                                                │
+            │    src="assets/about/studio.png"                    │
+            │    alt="Colorsaur studio team"                      │
+            │    class="art-img art-img--about"                   │
+            │    width="880" height="880"                         │
+            │    loading="lazy"                                    │
+            │  />                                                  │
+            └─────────────────────────────────────────────────────┘
+          -->
           <div class="art-placeholder art-placeholder--about" aria-label="About section artwork">
             <div class="art-ph-inner">
               <div class="art-ph-icon" aria-hidden="true">🎮</div>
               <p class="art-ph-label">Studio Art</p>
-              <p class="art-ph-hint">Replace with team photo or illustration</p>
+              <p class="art-ph-hint">See assets/README.md → Slot 2</p>
             </div>
           </div>
 
@@ -224,12 +255,27 @@
             <a href="#vision" class="btn btn-white">See our vision →</a>
           </div>
 
-          <!-- Art placeholder right -->
+          <!--
+            ┌─────────────────────────────────────────────────────┐
+            │  ART SLOT 3 — MISSION ART                           │
+            │  File: assets/mission/mission.png                   │
+            │  Spec: assets/README.md → "3. mission/"            │
+            │  ⚠️  Section bg is deep purple — use light colors!  │
+            │                                                      │
+            │  <img                                                │
+            │    src="assets/mission/mission.png"                 │
+            │    alt="Colorsaur mission illustration"             │
+            │    class="art-img art-img--mission"                 │
+            │    width="720" height="760"                         │
+            │    loading="lazy"                                    │
+            │  />                                                  │
+            └─────────────────────────────────────────────────────┘
+          -->
           <div class="art-placeholder art-placeholder--mission" aria-label="Mission section artwork">
             <div class="art-ph-inner">
               <div class="art-ph-icon" aria-hidden="true">✨</div>
               <p class="art-ph-label">Mission Art</p>
-              <p class="art-ph-hint">Replace with custom illustration</p>
+              <p class="art-ph-hint">See assets/README.md → Slot 3</p>
             </div>
             <div class="color-chip cc-white-sm" aria-hidden="true"></div>
             <div class="color-chip cc-pink-sm"  aria-hidden="true"></div>
@@ -258,10 +304,26 @@
 
           <article class="vision-card vc-purple">
             <div class="vc-art" aria-label="Innovation artwork">
+              <!--
+                ┌─────────────────────────────────────────────────┐
+                │  ART SLOT 4 — VISION: INNOVATION                │
+                │  File: assets/vision-innovation/innovation.png  │
+                │  Spec: assets/README.md → "4. vision-innov.."  │
+                │                                                  │
+                │  <img                                            │
+                │    src="assets/vision-innovation/innovation.png"│
+                │    alt="Innovation and creativity illustration" │
+                │    class="art-img art-img--vision"              │
+                │    width="880" height="440"                     │
+                │    loading="lazy"                               │
+                │  />                                              │
+                └─────────────────────────────────────────────────┘
+              -->
               <div class="art-placeholder art-placeholder--vision">
                 <div class="art-ph-inner">
                   <div class="art-ph-icon" aria-hidden="true">💡</div>
                   <p class="art-ph-label">Innovation Art</p>
+                  <p class="art-ph-hint">See assets/README.md → Slot 4</p>
                 </div>
               </div>
             </div>
@@ -279,10 +341,26 @@
 
           <article class="vision-card vc-teal">
             <div class="vc-art" aria-label="Community artwork">
+              <!--
+                ┌─────────────────────────────────────────────────┐
+                │  ART SLOT 5 — VISION: COMMUNITY                 │
+                │  File: assets/vision-community/community.png    │
+                │  Spec: assets/README.md → "5. vision-comm.."   │
+                │                                                  │
+                │  <img                                            │
+                │    src="assets/vision-community/community.png" │
+                │    alt="Community and connection illustration"  │
+                │    class="art-img art-img--vision"              │
+                │    width="880" height="440"                     │
+                │    loading="lazy"                               │
+                │  />                                              │
+                └─────────────────────────────────────────────────┘
+              -->
               <div class="art-placeholder art-placeholder--vision">
                 <div class="art-ph-inner">
                   <div class="art-ph-icon" aria-hidden="true">🌍</div>
                   <p class="art-ph-label">Community Art</p>
+                  <p class="art-ph-hint">See assets/README.md → Slot 5</p>
                 </div>
               </div>
             </div>
@@ -313,11 +391,26 @@
       <div class="container">
         <div class="tuned-banner">
           <div class="tuned-art" aria-label="Coming soon artwork">
+            <!--
+              ┌─────────────────────────────────────────────────────┐
+              │  ART SLOT 6 — COMING SOON / STAY TUNED              │
+              │  File: assets/coming-soon/teaser.png                │
+              │  Spec: assets/README.md → "6. coming-soon/"        │
+              │                                                      │
+              │  <img                                                │
+              │    src="assets/coming-soon/teaser.png"              │
+              │    alt="Colorsaur upcoming game teaser"             │
+              │    class="art-img art-img--tuned"                   │
+              │    width="800" height="600"                         │
+              │    loading="lazy"                                    │
+              │  />                                                  │
+              └─────────────────────────────────────────────────────┘
+            -->
             <div class="art-placeholder art-placeholder--tuned">
               <div class="art-ph-inner">
                 <div class="art-ph-icon" aria-hidden="true">🦕</div>
                 <p class="art-ph-label">Coming Soon Art</p>
-                <p class="art-ph-hint">Replace with teaser game art</p>
+                <p class="art-ph-hint">See assets/README.md → Slot 6</p>
               </div>
             </div>
           </div>
@@ -342,10 +435,26 @@
       <div class="container">
         <div class="contact-card">
           <div class="contact-art" aria-label="Contact artwork">
+            <!--
+              ┌─────────────────────────────────────────────────────┐
+              │  ART SLOT 7 — CONTACT ART                           │
+              │  File: assets/contact/contact.png                   │
+              │  Spec: assets/README.md → "7. contact/"            │
+              │                                                      │
+              │  <img                                                │
+              │    src="assets/contact/contact.png"                 │
+              │    alt="Friendly Colorsaur mascot waving"           │
+              │    class="art-img art-img--contact"                 │
+              │    width="560" height="560"                         │
+              │    loading="lazy"                                    │
+              │  />                                                  │
+              └─────────────────────────────────────────────────────┘
+            -->
             <div class="art-placeholder art-placeholder--contact">
               <div class="art-ph-inner">
                 <div class="art-ph-icon" aria-hidden="true">📬</div>
                 <p class="art-ph-label">Contact Art</p>
+                <p class="art-ph-hint">See assets/README.md → Slot 7</p>
               </div>
             </div>
           </div>
