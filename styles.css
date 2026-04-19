@@ -135,15 +135,6 @@ img { display: block; max-width: 100%; image-rendering: pixelated; }
   pointer-events: none;
 }
 
-.px-frame-title {
-  background: var(--ink);
-  color: var(--yellow);
-  font-family: var(--font-pixel);
-  font-size: 0.5rem;
-  padding: 6px 12px;
-  letter-spacing: 0.08em;
-  flex-shrink: 0;
-}
 
 .px-frame-body {
   flex: 1;
@@ -156,38 +147,12 @@ img { display: block; max-width: 100%; image-rendering: pixelated; }
   gap: 10px;
 }
 
-.ph-emoji { font-size: 2.5rem; opacity: 0.5; }
-
-.ph-label {
-  font-family: var(--font-pixel);
-  font-size: 0.55rem;
-  color: var(--ink);
-  opacity: 0.6;
-}
-
-.ph-hint {
-  font-family: var(--font-body);
-  font-size: 0.78rem;
-  color: var(--ink);
-  opacity: 0.4;
-  font-weight: 700;
-}
-
-.ph-warn {
-  font-family: var(--font-body);
-  font-size: 0.75rem;
-  font-weight: 800;
-  color: var(--coral);
-  margin-top: 4px;
-}
+.ph-emoji { font-size: 2.5rem; opacity: 0.35; }
 
 /* Frame color variants */
 .px-frame-hero    { background: #e8f4ff; height: 100%; min-height: 380px; }
 .px-frame-about   { background: #f0f8e8; height: 420px; }
 .px-frame-mission { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.5); box-shadow: var(--bsh) var(--bsh) 0 rgba(0,0,0,0.3); height: 340px; }
-.px-frame-mission .px-frame-title { background: rgba(255,255,255,0.2); color: var(--yellow); }
-.px-frame-mission .ph-label,
-.px-frame-mission .ph-hint  { color: white; opacity: 0.6; }
 .px-frame-vision  { background: #f5f0ff; height: 200px; border-bottom: none; box-shadow: none; }
 .px-frame-vision-teal { background: #e8faf4; }
 .px-frame-tuned   { background: #fff8e8; height: 280px; }
